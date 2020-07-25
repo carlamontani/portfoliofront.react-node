@@ -1,0 +1,17 @@
+mega-card-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.individual-card{
+    background-color: antiquewhite;
+    margin: 2rem auto;
+}
+
+.imagen-proyecto{
+    width: 80%;
+}
+
+.boton-visitar{
+    background-color: blueviolet;
+}
