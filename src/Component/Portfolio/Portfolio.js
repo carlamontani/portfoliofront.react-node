@@ -11,18 +11,24 @@ function Portfolio (){
         )}, [setProjects])
         
     return(
-        <>
-            <div className="mega-card-portfolio">
-                {projects.length > 0 && projects.map((project, index) =>
-                    <div class="individual-card">
-                        <h1>{project.name}</h1>
-                        <img className="imagen-proyecto" alt="imagen-proyecto" src={project.image}></img>
-                        <p>{project.descripcion}</p>
-                        <a className="boton-visitar" href={project.link}>visitar proyecto</a>
-                    </div>
-                )}
-            </div>
-        </>
+        <div className="Portfolio">
+            <h2 className="title rose">Proyectos</h2>
+            {projects.length > 0 && projects.map((project, index) =>
+                <div className="individual-card">
+                    <p className="p">
+                        <i className="fas fa-square-full bullet rose"></i>
+                        {project.name} -
+                        {project.client}
+                        <a className="boton-visitar" href={project.link}><i className="fas fa-external-link-alt link rose"></i></a>
+                    </p>
+                    <ul className="ul-skills no-margin">
+                        {project.skills.map((skill, index) =>
+                        <p className="skill-p p">{skill}</p>
+                        )}  
+                    </ul>               
+                </div>
+            )}
+        </div>
     )
 }
 

@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,800;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap');
 
 body {
   margin: 0;
   font-family: 'Libre Baskerville', serif;
-  background-color: rgb(5, 0, 14);
+  background-color: black;
   color: white;
-  font-size: 12px;
-  line-height: 2em;
 }
 
 code {

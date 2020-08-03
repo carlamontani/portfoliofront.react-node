@@ -1,17 +1,19 @@
-mega-card-portfolio{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.individual-card{
-    background-color: antiquewhite;
-    margin: 2rem auto;
-}
-
-.imagen-proyecto{
-    width: 80%;
+.Portfolio{
 }
 
 .boton-visitar{
-    background-color: blueviolet;
+}
+
+.bullet {
+    font-size: 8px;
+    padding-right: 10px;
+}
+
+.link {
+    font-size: 8px;
+    padding-left: 5px;
+}
+
+.skill-p{
+    margin-right: 0.4rem;    
 }

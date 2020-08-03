@@ -1,0 +1,12 @@
+.Skills{
+}
+
+.ul-skills{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.skill{
+    margin-right: 0.8rem;    
+}

@@ -13,21 +13,18 @@ function About (){
         )}, [setInformation])
     return(
         <div className="About">
-            <div className="div-foto">
-                <img className="foto-perfil" alt="foto perfil" src={information.photo}></img>
-            </div>
             <div className="Descripcion">
-                <h1>{information.name}</h1>
-                <h2>{information.profession}</h2>
-                <p>{information.about_me}</p>
-                <ul className="skills">
-                    {information.skills && information.skills.map((skill, index) =>
-                        <p class="skill">{skill}</p>
-                    )}
-                </ul>
+                <h1 className= "h1 rose">{information.name}</h1>
+                <h2 className= "h1 light">{information.profession}</h2>
+                <h2 className="title rose">Hola!</h2>
+                <p className = "p">{information.about_me}</p>
             </div>
         </div>
     )
 }
 
 export default About;
+
+//<div className="div-photo">
+  //              <img className="profile-photo" alt="foto perfil" src={information.photo}></img>
+     //       </div>
