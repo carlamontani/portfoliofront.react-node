@@ -19,7 +19,7 @@ function Portfolio (){
                         <i className="fas fa-square-full bullet rose"></i>
                         {project.name} -
                         {project.client}
-                        <a className="boton-visitar" href={project.link}><i className="fas fa-external-link-alt link rose"></i></a>
+                        <a className="boton-visitar" href={project.link}  add target="_blank"><i className="fas fa-external-link-alt link rose"></i></a>
                     </p>
                     <ul className="ul-skills no-margin">
                         {project.skills.map((skill, index) =>

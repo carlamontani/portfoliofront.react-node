@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="App">
       <div className="Links">
-        <p className="no-margin">
-          <i class="fab fa-linkedin-in"></i>
-          <i class="fab fa-github"></i>
-          <i class="fab fa-behance"></i>
+        <p className="icons no-margin">
+          <i class="fab fa-linkedin-in icon"></i>
+          <i class="fab fa-github icon"></i>
+          <i class="fab fa-behance icon"></i>
         </p>
       </div>
       <div className="Container">
