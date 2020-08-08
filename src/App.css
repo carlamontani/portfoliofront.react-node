@@ -3,7 +3,7 @@
 }
 
 .Links {
-    padding: 4.5% 0;
+    padding: 3% 0;
 }
 
 .Container{
@@ -32,4 +32,46 @@
 
 .icon {
     padding-left: 10px;
+}
+
+a {
+    color: #FFCAE7;
+    transition: 0.5s;
+}
+
+a:active{
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .App {
+        padding: 0;
+        width: 100%;
+    }
+
+    .Container{
+        flex-direction: column;
+    }
+
+    .col1{
+        width: auto;
+        padding-right: 0;
+        padding: 0% 2% 15% 2%;
+    }
+
+    .Links{
+        padding: 10% 2%;
+    }
+
+    .col2{
+        width: auto;
+        padding-left: 0;
+        padding: 0% 2% 15% 2%;
+        background-color: white;
+        color: black;
+    }
 }

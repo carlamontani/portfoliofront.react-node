@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: start;
     flex: 1;
-    max-width: 350px;
+    max-width: 400px;
 }
 
 .div-photo{
@@ -12,7 +12,8 @@
 }
 
 .profile-photo{
-    width: 5%;
+    width: 100%;
+    height: auto;
 }
 
 .Descripcion{
@@ -21,31 +22,64 @@
     justify-content: start;
     background-color: transparent;
     text-align: left;
+    max-width: 350px;
 }
 
 .h1{
-    font-family: 'Cormorant', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     margin: 0;
 }
 
 .light{
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .rose{
-    color: #FFCAE7;
+    color: #f5b5d8;
 }
 
 .p {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 300;
-    font-size: 12px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 200;
+    font-size: 14px;
     margin: 0;
-    line-height: 18px;
+    line-height: 19px;
 }
 
 .title {
-    font-family: 'Cormorant', serif;
-    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.padding-bottom{
+    padding-bottom: 20px;
+}
+
+.div-img{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.profile-img {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+    .Descripcion{
+        max-width: 80%;
+    }
+
+    .profile-img{
+        padding-top: 280px;
+    }
+
+    .padding-bottom{
+        padding-bottom: 50px;
+    }
 }

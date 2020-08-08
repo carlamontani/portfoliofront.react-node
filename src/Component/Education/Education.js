@@ -4,26 +4,26 @@ import './Education.css'
 
 const Education = props => {
     return(
-        <div className="Education">
+        <div className="Education padding-bottom">
             <h2 className="title rose">Estudios - Cursos</h2>
 
             <p className="p">
                 <i className="fas fa-square-full bullet rose"></i>
-                Diseño Gráfico
+                <span className="p bold">Diseño Gráfico </span>
+                <span className="p"> - FADU·UBA</span>
             </p>
-            <p className="p">FADU - UBA</p>
 
             <p className="p">
                 <i className="fas fa-square-full bullet rose"></i>
-                Desarrollo Front-End
+                <span className="p bold">Desarrollo Front-End </span>
+                <span className="p"> - Ada ITW</span>
             </p>
-            <p className="p">Ada ITW</p>
 
             <p className="p">
                 <i className="fas fa-square-full bullet rose"></i>
-                Diseño UX - Javascript - React
+                <span className="p bold">Diseño UX - Javascript - React </span>
+                <span className="p"> - CoderHouse</span>
             </p>
-            <p className="p">CoderHouse</p>
         </div>
     )
 }

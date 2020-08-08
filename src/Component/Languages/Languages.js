@@ -8,9 +8,9 @@ const Languages = props => {
             <h2 className="title rose">Idiomas </h2>
             <p className="p">
                 <i className="fas fa-square-full bullet rose"></i>
-                Inglés
+                <span className="p bold">Inglés</span>
+                <span className="p"> - Nivel Intermedio</span>
             </p>
-            <p className="p">Nivel Intermedio</p>
         </div>
     )
 }

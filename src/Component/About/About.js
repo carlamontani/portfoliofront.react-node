@@ -13,7 +13,12 @@ function About (){
         )}, [setInformation])
     return(
         <div className="About">
-            <div className="Descripcion">
+            <div className="div-img">
+                <div className="profile-img">
+                    <img className="profile-photo" alt="foto perfil" src={information.photo}></img>
+                </div>
+            </div>
+            <div className="Descripcion padding-bottom">
                 <h1 className= "h1 rose">{information.name}</h1>
                 <h2 className= "h1 light">{information.profession}</h2>
                 <h2 className="title rose">Hola!</h2>

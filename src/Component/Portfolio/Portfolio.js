@@ -11,15 +11,20 @@ function Portfolio (){
         )}, [setProjects])
         
     return(
-        <div className="Portfolio">
+        <div className="Portfolio padding-bottom">
             <h2 className="title rose">Proyectos</h2>
             {projects.length > 0 && projects.map((project, index) =>
-                <div className="individual-card">
+                <div className="individual-card padding-bottom-item">
                     <p className="p">
                         <i className="fas fa-square-full bullet rose"></i>
-                        {project.name} -
+                        <span className= "bold">{project.name} </span> -
                         {project.client}
-                        <a className="boton-visitar" href={project.link}  add target="_blank"><i className="fas fa-external-link-alt link rose"></i></a>
+                        <a className="boton-visitar" href={project.link}  add target="_blank">
+                            <button class="button">
+                                Visitar
+                                <i className="fas fa-external-link-alt link rose"></i>
+                            </button>
+                        </a>
                     </p>
                     <ul className="ul-skills no-margin">
                         {project.skills.map((skill, index) =>
