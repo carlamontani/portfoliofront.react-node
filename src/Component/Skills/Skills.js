@@ -13,7 +13,7 @@ const Skills = props => {
     )}, [setInformation])
 
     return(
-        <div className="Skills">
+        <div className="Skills padding-bottom">
             <h2 className="title rose">Skills</h2>
             
             <ul className="ul-skills no-margin">

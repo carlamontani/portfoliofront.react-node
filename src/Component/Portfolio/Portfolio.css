@@ -1,4 +1,7 @@
 .Portfolio{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
 
 .boton-visitar{
@@ -48,4 +51,17 @@
 
 .button:hover .rose{
     color: black;
+}
+
+.padding-title-portfolio{
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .button{
+        background-color: white;
+    }
+    .padding-title-portfolio{
+        padding-top: 0px;
+    }
 }

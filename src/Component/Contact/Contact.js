@@ -4,9 +4,9 @@ import './Contact.css'
 
 const Contact = props => {
     return(
-        <div className="Contact padding-bottom">
+        <div className="Contact">
             <h2 className="title rose ">Contacto </h2>
-            <p className="p">carlamontani@gmail.com</p>
+            <p className="p mail">carlamontani@gmail.com</p>
         </div>
     )
 }

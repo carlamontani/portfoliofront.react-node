@@ -35,7 +35,7 @@
 }
 
 a {
-    color: #FFCAE7;
+    color: #f5b5d8;
     transition: 0.5s;
 }
 
@@ -50,7 +50,6 @@ a:hover {
 @media only screen and (max-width: 600px) {
     .App {
         padding: 0;
-        width: 100%;
     }
 
     .Container{
@@ -64,13 +63,17 @@ a:hover {
     }
 
     .Links{
-        padding: 10% 2%;
+        padding: 10% 0%;
+    }
+
+    .icons {
+        justify-content: flex-start;
     }
 
     .col2{
         width: auto;
         padding-left: 0;
-        padding: 0% 2% 15% 2%;
+        padding: 15% 2% 15% 2%;
         background-color: white;
         color: black;
     }

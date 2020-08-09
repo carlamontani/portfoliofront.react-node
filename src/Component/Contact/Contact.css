@@ -1,9 +1,9 @@
-.Contact {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-}
+.Contact {}
 
 .no-margin{
     margin: 0;
+}
+
+.mail:hover{
+    color: #f5b5d8;
 }

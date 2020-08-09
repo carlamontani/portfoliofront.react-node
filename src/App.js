@@ -24,9 +24,9 @@ function App() {
           <Languages/>
         </div>
         <div className="col2">
-          <Contact/>
           <Portfolio/>
           <Skills/>
+          <Contact/>
         </div>
       </div>
     </div>

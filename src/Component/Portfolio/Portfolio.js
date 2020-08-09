@@ -11,7 +11,7 @@ function Portfolio (){
         )}, [setProjects])
         
     return(
-        <div className="Portfolio padding-bottom">
+        <div className="Portfolio padding-bottom padding-title-portfolio">
             <h2 className="title rose">Proyectos</h2>
             {projects.length > 0 && projects.map((project, index) =>
                 <div className="individual-card padding-bottom-item">

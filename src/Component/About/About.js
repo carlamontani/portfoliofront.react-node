@@ -18,11 +18,11 @@ function About (){
                     <img className="profile-photo" alt="foto perfil" src={information.photo}></img>
                 </div>
             </div>
-            <div className="Descripcion padding-bottom">
+            <div className="Descripcion padding-bottom padding-title">
                 <h1 className= "h1 rose">{information.name}</h1>
-                <h2 className= "h1 light">{information.profession}</h2>
+                <h2 className= "h1 light padding-bottom">{information.profession}</h2>
                 <h2 className="title rose">Hola!</h2>
-                <p className = "p">{information.about_me}</p>
+                <p className = "p small">{information.about_me}</p>
             </div>
         </div>
     )
