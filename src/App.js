@@ -17,13 +17,12 @@ function App() {
           <a href="https://www.behance.net/carlamontani" add target="_blank"><i class="fab fa-behance icon"></i></a>
         </p>
       </div>
-      <div className="Container">
-          <About/>
-          <Education/>
-          <Portfolio/>
-          <Skills/>
-          <Contact/>
-      </div>
+      <About/>
+      <Education/>
+      <Portfolio/>
+      <Skills/>
+      <Contact/>
+      
     </div>
   );
 }
