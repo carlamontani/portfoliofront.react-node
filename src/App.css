@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+.Header{
+    height: 100vh;
+}
+
 .Links {
     padding: 5% 0;
     padding-left: 12%;
