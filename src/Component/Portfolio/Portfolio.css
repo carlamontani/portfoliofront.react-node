@@ -1,7 +1,10 @@
 .Portfolio{
     display: flex;
     flex: 1;
-    flex-direction: column;
+    padding: 70px 0 130px 0;
+    justify-content: start;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 .boton-visitar{
@@ -30,38 +33,40 @@
 }
 
 .button {
-    background-color: black;
-    border: 0.5px solid #f5b5d8;
-    color: #f5b5d8;
-    padding: 5px 8px;
+    background-color: #ff6a8cd9;
+    color: white;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 2px 8px;
+    margin: 10px 10px 10px 0;
     cursor: pointer;
     font-size: 12px;
     transition: 0.3s;
     font-family: 'Crimson Pro', serif;
+    border: none;
 }
 
 .button:hover{
-    background-color: #f5b5d8;
-    color: black;
+    background-color: #021558;
+    color: white;
 }
 
 .button:hover .rose{
-    color: black;
-}
-
-.padding-title-portfolio{
-    padding-top: 20px;
+    color: #021558;
 }
 
 @media only screen and (max-width: 600px) {
+    .Portfolio {
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
     .button{
         background-color: white;
     }
-    .padding-title-portfolio{
-        padding-top: 0px;
-    }
+
 }

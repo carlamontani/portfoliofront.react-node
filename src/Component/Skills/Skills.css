@@ -1,4 +1,10 @@
 .Skills{
+    display: flex;
+    flex: 1;
+    padding: 70px 0 130px 0;
+    justify-content: start;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 .ul-skills{
@@ -9,4 +15,25 @@
 
 .skill{
     margin-right: 0.8rem;    
+}
+
+.column-2 {
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Skills {
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        padding-bottom: 70px;
+    }
+    .button{
+        background-color: white;
+    }
+    .padding-title-portfolio{
+        padding-top: 0px;
+    }
 }

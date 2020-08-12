@@ -1,9 +1,29 @@
-.Contact {}
+.Contact {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color: #fadfc9;
+}
 
 .no-margin{
     margin: 0;
 }
 
+.mail {
+    transition: 0.5s;
+}
 .mail:hover{
-    color: #f5b5d8;
+    color: #021558;
+}
+
+.contact-me{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.envelope{
+    padding: 0 5px 0 2px;
 }

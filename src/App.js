@@ -18,16 +18,11 @@ function App() {
         </p>
       </div>
       <div className="Container">
-        <div className="col1">
           <About/>
           <Education/>
-          <Languages/>
-        </div>
-        <div className="col2">
           <Portfolio/>
           <Skills/>
           <Contact/>
-        </div>
       </div>
     </div>
   );

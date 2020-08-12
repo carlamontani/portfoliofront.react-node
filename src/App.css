@@ -1,25 +1,13 @@
 .App {
-    padding: 0% 9% 9% 9%;
 }
 
 .Links {
-    padding: 3% 0;
+    padding: 5% 0;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 .Container{
-    display: flex;
-}
-
-.col1 {
-    width: 50%;
-    padding-right: 4.5%;
-    display: flex;
-    flex-direction: column;
-}
-
-.col2 {
-    width: 50%;
-    padding-left: 4.5%;
     display: flex;
     flex-direction: column;
 }
@@ -35,16 +23,16 @@
 }
 
 a {
-    color: #f5b5d8;
+    color: #ff6a8cd9;
     transition: 0.5s;
 }
 
 a:active{
-    color: white;
+    color: #ff6a8cd9;
 }
 
 a:hover {
-    color: white;
+    color: #021558;
 }
 
 @media only screen and (max-width: 600px) {
@@ -56,18 +44,12 @@ a:hover {
         flex-direction: column;
     }
 
-    .col1{
-        width: auto;
-        padding-right: 0;
-        padding: 0% 2% 15% 2%;
-    }
-
     .Links{
-        padding: 10% 0%;
+        padding: 10% 5%;
     }
 
     .icons {
-        justify-content: flex-start;
+        
     }
 
     .col2{

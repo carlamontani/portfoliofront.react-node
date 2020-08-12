@@ -3,6 +3,9 @@
     flex-direction: column;
     justify-content: start;
     flex: 1;
+    padding: 70px 0 120px 0;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 .div-photo{
@@ -18,33 +21,30 @@
 
 .Descripcion{
     display: flex;
-    flex-direction: column;
     justify-content: start;
-    background-color: transparent;
     text-align: left;
-    max-width: 350px;
 }
 
 .h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     margin: 0;
 }
 
 .light{
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .rose{
-    color: #f5b5d8;
+    color: #ff6a8cd9;
 }
 
 .p {
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 12px;
     margin: 0;
-    line-height: 19px;
+    line-height: 21px;
 }
 
 .title {
@@ -64,25 +64,41 @@
 
 .div-img{
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: flex-end;
 }
 
 .profile-img {
-    width: 180px;
+    width: 200px;
     height: 150px;
     position: absolute;
     z-index: -1;
 }
 
 .small{
-    max-width: 300px;
+    max-width: 450px;
+}
+
+.column-title{
+    width: 200px;
+    display: flex;
+}
+
+.main-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin: 0;
+    font-weight: 600;
+    text-decoration: underline grey;
+    transform: rotate(-45deg);
+    height: 40px;
 }
 
 @media only screen and (max-width: 600px) {
     .Descripcion{
         max-width: 80%;
-        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
     }
 
     .profile-img{
@@ -91,5 +107,18 @@
 
     .padding-bottom{
         padding-bottom: 50px;
+    }
+
+    .About{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .div-img{
+        width: 100%;
+    }
+
+    .column-title{
+        padding-bottom: 30px;
     }
 }

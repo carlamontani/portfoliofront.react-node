@@ -1,6 +1,90 @@
 .Education {
+    padding: 70px 0 130px 0;
+    display: flex;
+    justify-content: start;
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color: #fadfc9;
 }
 
 .bold{
     font-weight: 600;
+}
+
+.education-main{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.slash{
+    width: 15px;
+    height: 5px;
+    background-color: #ff6a8cd9;
+    margin-bottom: 10px;
+}
+
+.column-title-ed{
+    display: flex;
+    justify-content: flex-start;
+    width: 200px;
+}
+
+.year {
+    font-style: italic;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.pad-icon{
+    padding-right: 5px;
+}
+
+.icon-skill{
+    color: #4a4a4a;
+}
+
+.column-3{
+    width: 30%;
+}
+
+.column-title-none{
+    width: 200px;
+    display: flex;
+}
+
+.column-title-edleft{
+    display: flex;
+    justify-content: flex-end;
+    width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Education {
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .column-title-none {
+        display: none;
+    }
+
+    .column-title-ed{
+        padding-bottom: 30px;
+        justify-content: center;
+        width: auto;
+    }
+
+    .education-main{
+        flex-direction: column;
+    }
+
+    .column-3{
+        width: 100%;
+        padding-top: 50px;
+    }    
 }
