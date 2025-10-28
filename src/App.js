@@ -20,13 +20,15 @@ function App() {
         </div>
         <About/>
       </div>
-      <Education/>
-      <Portfolio/>
-      <Skills/>
-      <Contact/>
-      
     </div>
   );
 }
 
 export default App;
+
+/*
+      <Education/>
+      <Portfolio/>
+      <Skills/>
+      <Contact/>
+    */
