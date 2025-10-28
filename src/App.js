@@ -31,4 +31,4 @@ export default App;
       <Portfolio/>
       <Skills/>
       <Contact/>
-    */
+*/
